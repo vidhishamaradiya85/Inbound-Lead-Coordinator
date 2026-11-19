@@ -1,0 +1,3127 @@
+{
+  "total_dataset_leads": 210,
+  "successfully_processed": 210,
+  "failed": 0,
+  "decision_counts": {
+    "eligible_for_qualification": 65,
+    "mark_duplicate": 25,
+    "escalate": 45,
+    "reject_for_review": 25,
+    "reject_outside_service_area": 20,
+    "request_information": 20,
+    "reject_invalid": 10
+  },
+  "failures": [],
+  "results": [
+    {
+      "lead_id": "SYN-000001",
+      "decision": {
+        "lead_id": "SYN-000001",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000002",
+      "decision": {
+        "lead_id": "SYN-000002",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000003",
+      "decision": {
+        "lead_id": "SYN-000003",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000004",
+      "decision": {
+        "lead_id": "SYN-000004",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000005",
+      "decision": {
+        "lead_id": "SYN-000005",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000006",
+      "decision": {
+        "lead_id": "SYN-000006",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000007",
+      "decision": {
+        "lead_id": "SYN-000007",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000008",
+      "decision": {
+        "lead_id": "SYN-000008",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000009",
+      "decision": {
+        "lead_id": "SYN-000009",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000010",
+      "decision": {
+        "lead_id": "SYN-000010",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000011",
+      "decision": {
+        "lead_id": "SYN-000011",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000012",
+      "decision": {
+        "lead_id": "SYN-000012",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000013",
+      "decision": {
+        "lead_id": "SYN-000013",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000014",
+      "decision": {
+        "lead_id": "SYN-000014",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000015",
+      "decision": {
+        "lead_id": "SYN-000015",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000016",
+      "decision": {
+        "lead_id": "SYN-000016",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000017",
+      "decision": {
+        "lead_id": "SYN-000017",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000018",
+      "decision": {
+        "lead_id": "SYN-000018",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000019",
+      "decision": {
+        "lead_id": "SYN-000019",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000020",
+      "decision": {
+        "lead_id": "SYN-000020",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000021",
+      "decision": {
+        "lead_id": "SYN-000021",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000022",
+      "decision": {
+        "lead_id": "SYN-000022",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000023",
+      "decision": {
+        "lead_id": "SYN-000023",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000024",
+      "decision": {
+        "lead_id": "SYN-000024",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000025",
+      "decision": {
+        "lead_id": "SYN-000025",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000026",
+      "decision": {
+        "lead_id": "SYN-000026",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000027",
+      "decision": {
+        "lead_id": "SYN-000027",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000028",
+      "decision": {
+        "lead_id": "SYN-000028",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000029",
+      "decision": {
+        "lead_id": "SYN-000029",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000030",
+      "decision": {
+        "lead_id": "SYN-000030",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000031",
+      "decision": {
+        "lead_id": "SYN-000031",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000032",
+      "decision": {
+        "lead_id": "SYN-000032",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000033",
+      "decision": {
+        "lead_id": "SYN-000033",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000034",
+      "decision": {
+        "lead_id": "SYN-000034",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000035",
+      "decision": {
+        "lead_id": "SYN-000035",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000036",
+      "decision": {
+        "lead_id": "SYN-000036",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000037",
+      "decision": {
+        "lead_id": "SYN-000037",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000038",
+      "decision": {
+        "lead_id": "SYN-000038",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000039",
+      "decision": {
+        "lead_id": "SYN-000039",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000040",
+      "decision": {
+        "lead_id": "SYN-000040",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000041",
+      "decision": {
+        "lead_id": "SYN-000041",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000042",
+      "decision": {
+        "lead_id": "SYN-000042",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000043",
+      "decision": {
+        "lead_id": "SYN-000043",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000044",
+      "decision": {
+        "lead_id": "SYN-000044",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000045",
+      "decision": {
+        "lead_id": "SYN-000045",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000046",
+      "decision": {
+        "lead_id": "SYN-000046",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000047",
+      "decision": {
+        "lead_id": "SYN-000047",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000048",
+      "decision": {
+        "lead_id": "SYN-000048",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000049",
+      "decision": {
+        "lead_id": "SYN-000049",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000050",
+      "decision": {
+        "lead_id": "SYN-000050",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000051",
+      "decision": {
+        "lead_id": "SYN-000051",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000052",
+      "decision": {
+        "lead_id": "SYN-000052",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000053",
+      "decision": {
+        "lead_id": "SYN-000053",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000054",
+      "decision": {
+        "lead_id": "SYN-000054",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000055",
+      "decision": {
+        "lead_id": "SYN-000055",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000056",
+      "decision": {
+        "lead_id": "SYN-000056",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000057",
+      "decision": {
+        "lead_id": "SYN-000057",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000058",
+      "decision": {
+        "lead_id": "SYN-000058",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000059",
+      "decision": {
+        "lead_id": "SYN-000059",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000060",
+      "decision": {
+        "lead_id": "SYN-000060",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000061",
+      "decision": {
+        "lead_id": "SYN-000061",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000062",
+      "decision": {
+        "lead_id": "SYN-000062",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000063",
+      "decision": {
+        "lead_id": "SYN-000063",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000064",
+      "decision": {
+        "lead_id": "SYN-000064",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000065",
+      "decision": {
+        "lead_id": "SYN-000065",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000066",
+      "decision": {
+        "lead_id": "SYN-000066",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "exact_contact_match"
+        ],
+        "duplicate_of": "SYN-000001",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000067",
+      "decision": {
+        "lead_id": "SYN-000067",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "exact_contact_match"
+        ],
+        "duplicate_of": "SYN-000002",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000068",
+      "decision": {
+        "lead_id": "SYN-000068",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "exact_contact_match"
+        ],
+        "duplicate_of": "SYN-000003",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000069",
+      "decision": {
+        "lead_id": "SYN-000069",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "exact_contact_match"
+        ],
+        "duplicate_of": "SYN-000004",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000070",
+      "decision": {
+        "lead_id": "SYN-000070",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "exact_contact_match"
+        ],
+        "duplicate_of": "SYN-000005",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000071",
+      "decision": {
+        "lead_id": "SYN-000071",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "exact_contact_match"
+        ],
+        "duplicate_of": "SYN-000006",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000072",
+      "decision": {
+        "lead_id": "SYN-000072",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "exact_contact_match"
+        ],
+        "duplicate_of": "SYN-000007",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000073",
+      "decision": {
+        "lead_id": "SYN-000073",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "exact_contact_match"
+        ],
+        "duplicate_of": "SYN-000008",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000074",
+      "decision": {
+        "lead_id": "SYN-000074",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "exact_contact_match"
+        ],
+        "duplicate_of": "SYN-000009",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000075",
+      "decision": {
+        "lead_id": "SYN-000075",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "exact_contact_match"
+        ],
+        "duplicate_of": "SYN-000010",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000076",
+      "decision": {
+        "lead_id": "SYN-000076",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "exact_contact_match"
+        ],
+        "duplicate_of": "SYN-000011",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000077",
+      "decision": {
+        "lead_id": "SYN-000077",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "exact_contact_match"
+        ],
+        "duplicate_of": "SYN-000012",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000078",
+      "decision": {
+        "lead_id": "SYN-000078",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "exact_contact_match"
+        ],
+        "duplicate_of": "SYN-000013",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000079",
+      "decision": {
+        "lead_id": "SYN-000079",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "exact_contact_match"
+        ],
+        "duplicate_of": "SYN-000014",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000080",
+      "decision": {
+        "lead_id": "SYN-000080",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "exact_contact_match"
+        ],
+        "duplicate_of": "SYN-000015",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000081",
+      "decision": {
+        "lead_id": "SYN-000081",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "normalized_contact_match"
+        ],
+        "duplicate_of": "SYN-000016",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000082",
+      "decision": {
+        "lead_id": "SYN-000082",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "normalized_contact_match"
+        ],
+        "duplicate_of": "SYN-000017",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000083",
+      "decision": {
+        "lead_id": "SYN-000083",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "normalized_contact_match"
+        ],
+        "duplicate_of": "SYN-000018",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000084",
+      "decision": {
+        "lead_id": "SYN-000084",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "normalized_contact_match"
+        ],
+        "duplicate_of": "SYN-000019",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000085",
+      "decision": {
+        "lead_id": "SYN-000085",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "normalized_contact_match"
+        ],
+        "duplicate_of": "SYN-000020",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000086",
+      "decision": {
+        "lead_id": "SYN-000086",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "normalized_contact_match"
+        ],
+        "duplicate_of": "SYN-000021",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000087",
+      "decision": {
+        "lead_id": "SYN-000087",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "normalized_contact_match"
+        ],
+        "duplicate_of": "SYN-000022",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000088",
+      "decision": {
+        "lead_id": "SYN-000088",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "normalized_contact_match"
+        ],
+        "duplicate_of": "SYN-000023",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000089",
+      "decision": {
+        "lead_id": "SYN-000089",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "normalized_contact_match"
+        ],
+        "duplicate_of": "SYN-000024",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000090",
+      "decision": {
+        "lead_id": "SYN-000090",
+        "decision": "mark_duplicate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "An existing lead matches the contact details.",
+        "risk_flags": [
+          "possible_duplicate",
+          "normalized_contact_match"
+        ],
+        "duplicate_of": "SYN-000025",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000091",
+      "decision": {
+        "lead_id": "SYN-000091",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Matching contact details contain conflicting information.",
+        "risk_flags": [
+          "possible_duplicate",
+          "conflicting_contact_details"
+        ],
+        "duplicate_of": "SYN-000026",
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000092",
+      "decision": {
+        "lead_id": "SYN-000092",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Matching contact details contain conflicting information.",
+        "risk_flags": [
+          "possible_duplicate",
+          "conflicting_contact_details"
+        ],
+        "duplicate_of": "SYN-000027",
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000093",
+      "decision": {
+        "lead_id": "SYN-000093",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Matching contact details contain conflicting information.",
+        "risk_flags": [
+          "possible_duplicate",
+          "conflicting_contact_details"
+        ],
+        "duplicate_of": "SYN-000028",
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000094",
+      "decision": {
+        "lead_id": "SYN-000094",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Matching contact details contain conflicting information.",
+        "risk_flags": [
+          "possible_duplicate",
+          "conflicting_contact_details"
+        ],
+        "duplicate_of": "SYN-000029",
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000095",
+      "decision": {
+        "lead_id": "SYN-000095",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Matching contact details contain conflicting information.",
+        "risk_flags": [
+          "possible_duplicate",
+          "conflicting_contact_details"
+        ],
+        "duplicate_of": "SYN-000030",
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000096",
+      "decision": {
+        "lead_id": "SYN-000096",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000097",
+      "decision": {
+        "lead_id": "SYN-000097",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam",
+          "bulk_solicitation"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000098",
+      "decision": {
+        "lead_id": "SYN-000098",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam",
+          "bulk_solicitation"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000099",
+      "decision": {
+        "lead_id": "SYN-000099",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000100",
+      "decision": {
+        "lead_id": "SYN-000100",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000101",
+      "decision": {
+        "lead_id": "SYN-000101",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000102",
+      "decision": {
+        "lead_id": "SYN-000102",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam",
+          "bulk_solicitation"
+        ],
+        "duplicate_of": "SYN-000096",
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000103",
+      "decision": {
+        "lead_id": "SYN-000103",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam",
+          "bulk_solicitation"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000104",
+      "decision": {
+        "lead_id": "SYN-000104",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000105",
+      "decision": {
+        "lead_id": "SYN-000105",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000106",
+      "decision": {
+        "lead_id": "SYN-000106",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000107",
+      "decision": {
+        "lead_id": "SYN-000107",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam",
+          "bulk_solicitation"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000108",
+      "decision": {
+        "lead_id": "SYN-000108",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam",
+          "bulk_solicitation"
+        ],
+        "duplicate_of": "SYN-000096",
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000109",
+      "decision": {
+        "lead_id": "SYN-000109",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000110",
+      "decision": {
+        "lead_id": "SYN-000110",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000111",
+      "decision": {
+        "lead_id": "SYN-000111",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000112",
+      "decision": {
+        "lead_id": "SYN-000112",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam",
+          "bulk_solicitation"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000113",
+      "decision": {
+        "lead_id": "SYN-000113",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam",
+          "bulk_solicitation"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000114",
+      "decision": {
+        "lead_id": "SYN-000114",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam"
+        ],
+        "duplicate_of": "SYN-000096",
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000115",
+      "decision": {
+        "lead_id": "SYN-000115",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000116",
+      "decision": {
+        "lead_id": "SYN-000116",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000117",
+      "decision": {
+        "lead_id": "SYN-000117",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam",
+          "bulk_solicitation"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000118",
+      "decision": {
+        "lead_id": "SYN-000118",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam",
+          "bulk_solicitation"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000119",
+      "decision": {
+        "lead_id": "SYN-000119",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000120",
+      "decision": {
+        "lead_id": "SYN-000120",
+        "decision": "reject_for_review",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "Possible spam detected; human review required.",
+        "risk_flags": [
+          "possible_spam"
+        ],
+        "duplicate_of": "SYN-000096",
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000121",
+      "decision": {
+        "lead_id": "SYN-000121",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000122",
+      "decision": {
+        "lead_id": "SYN-000122",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000123",
+      "decision": {
+        "lead_id": "SYN-000123",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000124",
+      "decision": {
+        "lead_id": "SYN-000124",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000125",
+      "decision": {
+        "lead_id": "SYN-000125",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000126",
+      "decision": {
+        "lead_id": "SYN-000126",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000127",
+      "decision": {
+        "lead_id": "SYN-000127",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000128",
+      "decision": {
+        "lead_id": "SYN-000128",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000129",
+      "decision": {
+        "lead_id": "SYN-000129",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000130",
+      "decision": {
+        "lead_id": "SYN-000130",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000131",
+      "decision": {
+        "lead_id": "SYN-000131",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000132",
+      "decision": {
+        "lead_id": "SYN-000132",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000133",
+      "decision": {
+        "lead_id": "SYN-000133",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000134",
+      "decision": {
+        "lead_id": "SYN-000134",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000135",
+      "decision": {
+        "lead_id": "SYN-000135",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000136",
+      "decision": {
+        "lead_id": "SYN-000136",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000137",
+      "decision": {
+        "lead_id": "SYN-000137",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000138",
+      "decision": {
+        "lead_id": "SYN-000138",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000139",
+      "decision": {
+        "lead_id": "SYN-000139",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000140",
+      "decision": {
+        "lead_id": "SYN-000140",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "angry_or_complaint"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000141",
+      "decision": {
+        "lead_id": "SYN-000141",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000142",
+      "decision": {
+        "lead_id": "SYN-000142",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000143",
+      "decision": {
+        "lead_id": "SYN-000143",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000144",
+      "decision": {
+        "lead_id": "SYN-000144",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000145",
+      "decision": {
+        "lead_id": "SYN-000145",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000146",
+      "decision": {
+        "lead_id": "SYN-000146",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000147",
+      "decision": {
+        "lead_id": "SYN-000147",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000148",
+      "decision": {
+        "lead_id": "SYN-000148",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000149",
+      "decision": {
+        "lead_id": "SYN-000149",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000150",
+      "decision": {
+        "lead_id": "SYN-000150",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000151",
+      "decision": {
+        "lead_id": "SYN-000151",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000152",
+      "decision": {
+        "lead_id": "SYN-000152",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000153",
+      "decision": {
+        "lead_id": "SYN-000153",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000154",
+      "decision": {
+        "lead_id": "SYN-000154",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000155",
+      "decision": {
+        "lead_id": "SYN-000155",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000156",
+      "decision": {
+        "lead_id": "SYN-000156",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000157",
+      "decision": {
+        "lead_id": "SYN-000157",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000158",
+      "decision": {
+        "lead_id": "SYN-000158",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000159",
+      "decision": {
+        "lead_id": "SYN-000159",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000160",
+      "decision": {
+        "lead_id": "SYN-000160",
+        "decision": "reject_outside_service_area",
+        "qualification_status": "unqualified",
+        "qualification_score": 1.0,
+        "reason": "The supplied service area is not supported.",
+        "risk_flags": [
+          "outside_service_area"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000161",
+      "decision": {
+        "lead_id": "SYN-000161",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000162",
+      "decision": {
+        "lead_id": "SYN-000162",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000163",
+      "decision": {
+        "lead_id": "SYN-000163",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000164",
+      "decision": {
+        "lead_id": "SYN-000164",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000165",
+      "decision": {
+        "lead_id": "SYN-000165",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000166",
+      "decision": {
+        "lead_id": "SYN-000166",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000167",
+      "decision": {
+        "lead_id": "SYN-000167",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000168",
+      "decision": {
+        "lead_id": "SYN-000168",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000169",
+      "decision": {
+        "lead_id": "SYN-000169",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000170",
+      "decision": {
+        "lead_id": "SYN-000170",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000171",
+      "decision": {
+        "lead_id": "SYN-000171",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000172",
+      "decision": {
+        "lead_id": "SYN-000172",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000173",
+      "decision": {
+        "lead_id": "SYN-000173",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000174",
+      "decision": {
+        "lead_id": "SYN-000174",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000175",
+      "decision": {
+        "lead_id": "SYN-000175",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000176",
+      "decision": {
+        "lead_id": "SYN-000176",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000177",
+      "decision": {
+        "lead_id": "SYN-000177",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000178",
+      "decision": {
+        "lead_id": "SYN-000178",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000179",
+      "decision": {
+        "lead_id": "SYN-000179",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000180",
+      "decision": {
+        "lead_id": "SYN-000180",
+        "decision": "escalate",
+        "qualification_status": "needs_review",
+        "qualification_score": 0.0,
+        "reason": "A security or customer complaint requires human review.",
+        "risk_flags": [
+          "possible_prompt_injection"
+        ],
+        "duplicate_of": null,
+        "requires_human": true
+      }
+    },
+    {
+      "lead_id": "SYN-000181",
+      "decision": {
+        "lead_id": "SYN-000181",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_email",
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000182",
+      "decision": {
+        "lead_id": "SYN-000182",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_email",
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000183",
+      "decision": {
+        "lead_id": "SYN-000183",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_email",
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000184",
+      "decision": {
+        "lead_id": "SYN-000184",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_email",
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000185",
+      "decision": {
+        "lead_id": "SYN-000185",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_email",
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000186",
+      "decision": {
+        "lead_id": "SYN-000186",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_email",
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000187",
+      "decision": {
+        "lead_id": "SYN-000187",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_email",
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000188",
+      "decision": {
+        "lead_id": "SYN-000188",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_email",
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000189",
+      "decision": {
+        "lead_id": "SYN-000189",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_email",
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000190",
+      "decision": {
+        "lead_id": "SYN-000190",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_email",
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000191",
+      "decision": {
+        "lead_id": "SYN-000191",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000192",
+      "decision": {
+        "lead_id": "SYN-000192",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000193",
+      "decision": {
+        "lead_id": "SYN-000193",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000194",
+      "decision": {
+        "lead_id": "SYN-000194",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000195",
+      "decision": {
+        "lead_id": "SYN-000195",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000196",
+      "decision": {
+        "lead_id": "SYN-000196",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000197",
+      "decision": {
+        "lead_id": "SYN-000197",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000198",
+      "decision": {
+        "lead_id": "SYN-000198",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000199",
+      "decision": {
+        "lead_id": "SYN-000199",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000200",
+      "decision": {
+        "lead_id": "SYN-000200",
+        "decision": "request_information",
+        "qualification_status": "needs_info",
+        "qualification_score": 0.3,
+        "reason": "Required lead information is missing or the service description needs clarification.",
+        "risk_flags": [
+          "missing_service_details",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000201",
+      "decision": {
+        "lead_id": "SYN-000201",
+        "decision": "reject_invalid",
+        "qualification_status": "unqualified",
+        "qualification_score": 0.0,
+        "reason": "Supplied contact information is invalid.",
+        "risk_flags": [
+          "invalid_email",
+          "invalid_phone",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000202",
+      "decision": {
+        "lead_id": "SYN-000202",
+        "decision": "reject_invalid",
+        "qualification_status": "unqualified",
+        "qualification_score": 0.0,
+        "reason": "Supplied contact information is invalid.",
+        "risk_flags": [
+          "invalid_email",
+          "invalid_phone",
+          "incomplete"
+        ],
+        "duplicate_of": "SYN-000201",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000203",
+      "decision": {
+        "lead_id": "SYN-000203",
+        "decision": "reject_invalid",
+        "qualification_status": "unqualified",
+        "qualification_score": 0.0,
+        "reason": "Supplied contact information is invalid.",
+        "risk_flags": [
+          "invalid_email",
+          "invalid_phone",
+          "incomplete"
+        ],
+        "duplicate_of": "SYN-000201",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000204",
+      "decision": {
+        "lead_id": "SYN-000204",
+        "decision": "reject_invalid",
+        "qualification_status": "unqualified",
+        "qualification_score": 0.0,
+        "reason": "Supplied contact information is invalid.",
+        "risk_flags": [
+          "invalid_email",
+          "invalid_phone",
+          "incomplete"
+        ],
+        "duplicate_of": "SYN-000201",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000205",
+      "decision": {
+        "lead_id": "SYN-000205",
+        "decision": "reject_invalid",
+        "qualification_status": "unqualified",
+        "qualification_score": 0.0,
+        "reason": "Supplied contact information is invalid.",
+        "risk_flags": [
+          "invalid_email",
+          "invalid_phone",
+          "incomplete"
+        ],
+        "duplicate_of": "SYN-000201",
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000206",
+      "decision": {
+        "lead_id": "SYN-000206",
+        "decision": "reject_invalid",
+        "qualification_status": "unqualified",
+        "qualification_score": 0.0,
+        "reason": "Supplied contact information is invalid.",
+        "risk_flags": [
+          "missing_email",
+          "invalid_phone",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000207",
+      "decision": {
+        "lead_id": "SYN-000207",
+        "decision": "reject_invalid",
+        "qualification_status": "unqualified",
+        "qualification_score": 0.0,
+        "reason": "Supplied contact information is invalid.",
+        "risk_flags": [
+          "missing_email",
+          "invalid_phone",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000208",
+      "decision": {
+        "lead_id": "SYN-000208",
+        "decision": "reject_invalid",
+        "qualification_status": "unqualified",
+        "qualification_score": 0.0,
+        "reason": "Supplied contact information is invalid.",
+        "risk_flags": [
+          "missing_email",
+          "invalid_phone",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000209",
+      "decision": {
+        "lead_id": "SYN-000209",
+        "decision": "reject_invalid",
+        "qualification_status": "unqualified",
+        "qualification_score": 0.0,
+        "reason": "Supplied contact information is invalid.",
+        "risk_flags": [
+          "missing_email",
+          "invalid_phone",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000210",
+      "decision": {
+        "lead_id": "SYN-000210",
+        "decision": "reject_invalid",
+        "qualification_status": "unqualified",
+        "qualification_score": 0.0,
+        "reason": "Supplied contact information is invalid.",
+        "risk_flags": [
+          "missing_email",
+          "invalid_phone",
+          "incomplete"
+        ],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    }
+  ]
+}

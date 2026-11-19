@@ -1,0 +1,4623 @@
+{
+    "total_cases": 210,
+    "passed": 210,
+    "failed": 0,
+    "accuracy_percentage": 100.0,
+    "outcome_accuracy_percentage": 100.0,
+    "risk_flag_accuracy_percentage": 100.0,
+    "duplicate_accuracy_percentage": 100.0,
+    "category_results": {
+        "angry_dissatisfied": {
+            "total": 20,
+            "passed": 20,
+            "failed": 0,
+            "accuracy_percentage": 100.0
+        },
+        "duplicate": {
+            "total": 30,
+            "passed": 30,
+            "failed": 0,
+            "accuracy_percentage": 100.0
+        },
+        "incomplete_invalid": {
+            "total": 30,
+            "passed": 30,
+            "failed": 0,
+            "accuracy_percentage": 100.0
+        },
+        "prompt_injection": {
+            "total": 20,
+            "passed": 20,
+            "failed": 0,
+            "accuracy_percentage": 100.0
+        },
+        "spam": {
+            "total": 25,
+            "passed": 25,
+            "failed": 0,
+            "accuracy_percentage": 100.0
+        },
+        "valid": {
+            "total": 65,
+            "passed": 65,
+            "failed": 0,
+            "accuracy_percentage": 100.0
+        },
+        "wrong_service_area": {
+            "total": 20,
+            "passed": 20,
+            "failed": 0,
+            "accuracy_percentage": 100.0
+        }
+    },
+    "confusion_matrix": {
+        "deduplicate": {
+            "deduplicate": 25
+        },
+        "escalate": {
+            "escalate": 45
+        },
+        "qualify": {
+            "qualify": 65
+        },
+        "reject_invalid": {
+            "reject_invalid": 10
+        },
+        "reject_out_of_area": {
+            "reject_out_of_area": 20
+        },
+        "reject_spam": {
+            "reject_spam": 25
+        },
+        "request_more_info": {
+            "request_more_info": 20
+        }
+    },
+    "cases": [
+        {
+            "case_id": "CASE-000001",
+            "lead_id": "SYN-000001",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000002",
+            "lead_id": "SYN-000002",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000003",
+            "lead_id": "SYN-000003",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000004",
+            "lead_id": "SYN-000004",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000005",
+            "lead_id": "SYN-000005",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000006",
+            "lead_id": "SYN-000006",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000007",
+            "lead_id": "SYN-000007",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000008",
+            "lead_id": "SYN-000008",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000009",
+            "lead_id": "SYN-000009",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000010",
+            "lead_id": "SYN-000010",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000011",
+            "lead_id": "SYN-000011",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000012",
+            "lead_id": "SYN-000012",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000013",
+            "lead_id": "SYN-000013",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000014",
+            "lead_id": "SYN-000014",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000015",
+            "lead_id": "SYN-000015",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000016",
+            "lead_id": "SYN-000016",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000017",
+            "lead_id": "SYN-000017",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000018",
+            "lead_id": "SYN-000018",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000019",
+            "lead_id": "SYN-000019",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000020",
+            "lead_id": "SYN-000020",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000021",
+            "lead_id": "SYN-000021",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000022",
+            "lead_id": "SYN-000022",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000023",
+            "lead_id": "SYN-000023",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000024",
+            "lead_id": "SYN-000024",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000025",
+            "lead_id": "SYN-000025",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000026",
+            "lead_id": "SYN-000026",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000027",
+            "lead_id": "SYN-000027",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000028",
+            "lead_id": "SYN-000028",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000029",
+            "lead_id": "SYN-000029",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000030",
+            "lead_id": "SYN-000030",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000031",
+            "lead_id": "SYN-000031",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000032",
+            "lead_id": "SYN-000032",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000033",
+            "lead_id": "SYN-000033",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000034",
+            "lead_id": "SYN-000034",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000035",
+            "lead_id": "SYN-000035",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000036",
+            "lead_id": "SYN-000036",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000037",
+            "lead_id": "SYN-000037",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000038",
+            "lead_id": "SYN-000038",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000039",
+            "lead_id": "SYN-000039",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000040",
+            "lead_id": "SYN-000040",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000041",
+            "lead_id": "SYN-000041",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000042",
+            "lead_id": "SYN-000042",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000043",
+            "lead_id": "SYN-000043",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000044",
+            "lead_id": "SYN-000044",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000045",
+            "lead_id": "SYN-000045",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000046",
+            "lead_id": "SYN-000046",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000047",
+            "lead_id": "SYN-000047",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000048",
+            "lead_id": "SYN-000048",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000049",
+            "lead_id": "SYN-000049",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000050",
+            "lead_id": "SYN-000050",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000051",
+            "lead_id": "SYN-000051",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000052",
+            "lead_id": "SYN-000052",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000053",
+            "lead_id": "SYN-000053",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000054",
+            "lead_id": "SYN-000054",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000055",
+            "lead_id": "SYN-000055",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000056",
+            "lead_id": "SYN-000056",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000057",
+            "lead_id": "SYN-000057",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000058",
+            "lead_id": "SYN-000058",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000059",
+            "lead_id": "SYN-000059",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000060",
+            "lead_id": "SYN-000060",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000061",
+            "lead_id": "SYN-000061",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000062",
+            "lead_id": "SYN-000062",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000063",
+            "lead_id": "SYN-000063",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000064",
+            "lead_id": "SYN-000064",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000065",
+            "lead_id": "SYN-000065",
+            "category": "valid",
+            "status": "PASS",
+            "expected_outcome": "qualify",
+            "actual_outcome": "qualify",
+            "outcome_pass": true,
+            "expected_risk_flags": [],
+            "actual_risk_flags": [],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Basic lead information is present. Further qualification is required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000066",
+            "lead_id": "SYN-000066",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000001",
+            "actual_duplicate_of": "SYN-000001",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000067",
+            "lead_id": "SYN-000067",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000002",
+            "actual_duplicate_of": "SYN-000002",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000068",
+            "lead_id": "SYN-000068",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000003",
+            "actual_duplicate_of": "SYN-000003",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000069",
+            "lead_id": "SYN-000069",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000004",
+            "actual_duplicate_of": "SYN-000004",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000070",
+            "lead_id": "SYN-000070",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000005",
+            "actual_duplicate_of": "SYN-000005",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000071",
+            "lead_id": "SYN-000071",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000006",
+            "actual_duplicate_of": "SYN-000006",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000072",
+            "lead_id": "SYN-000072",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000007",
+            "actual_duplicate_of": "SYN-000007",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000073",
+            "lead_id": "SYN-000073",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000008",
+            "actual_duplicate_of": "SYN-000008",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000074",
+            "lead_id": "SYN-000074",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000009",
+            "actual_duplicate_of": "SYN-000009",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000075",
+            "lead_id": "SYN-000075",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000010",
+            "actual_duplicate_of": "SYN-000010",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000076",
+            "lead_id": "SYN-000076",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000011",
+            "actual_duplicate_of": "SYN-000011",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000077",
+            "lead_id": "SYN-000077",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000012",
+            "actual_duplicate_of": "SYN-000012",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000078",
+            "lead_id": "SYN-000078",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000013",
+            "actual_duplicate_of": "SYN-000013",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000079",
+            "lead_id": "SYN-000079",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000014",
+            "actual_duplicate_of": "SYN-000014",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000080",
+            "lead_id": "SYN-000080",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "exact_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000015",
+            "actual_duplicate_of": "SYN-000015",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000081",
+            "lead_id": "SYN-000081",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000016",
+            "actual_duplicate_of": "SYN-000016",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000082",
+            "lead_id": "SYN-000082",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000017",
+            "actual_duplicate_of": "SYN-000017",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000083",
+            "lead_id": "SYN-000083",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000018",
+            "actual_duplicate_of": "SYN-000018",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000084",
+            "lead_id": "SYN-000084",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000019",
+            "actual_duplicate_of": "SYN-000019",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000085",
+            "lead_id": "SYN-000085",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000020",
+            "actual_duplicate_of": "SYN-000020",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000086",
+            "lead_id": "SYN-000086",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000021",
+            "actual_duplicate_of": "SYN-000021",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000087",
+            "lead_id": "SYN-000087",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000022",
+            "actual_duplicate_of": "SYN-000022",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000088",
+            "lead_id": "SYN-000088",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000023",
+            "actual_duplicate_of": "SYN-000023",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000089",
+            "lead_id": "SYN-000089",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000024",
+            "actual_duplicate_of": "SYN-000024",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000090",
+            "lead_id": "SYN-000090",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "deduplicate",
+            "actual_outcome": "deduplicate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "normalized_contact_match",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000025",
+            "actual_duplicate_of": "SYN-000025",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "An existing lead matches the contact details.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000091",
+            "lead_id": "SYN-000091",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "conflicting_contact_details",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "conflicting_contact_details",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000026",
+            "actual_duplicate_of": "SYN-000026",
+            "duplicate_pass": true,
+            "expected_escalation_reason": "contact details partially match a prior lead, but the name or phone differs; review before merging.",
+            "actual_reason": "Matching contact details contain conflicting information.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000092",
+            "lead_id": "SYN-000092",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "conflicting_contact_details",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "conflicting_contact_details",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000027",
+            "actual_duplicate_of": "SYN-000027",
+            "duplicate_pass": true,
+            "expected_escalation_reason": "contact details partially match a prior lead, but the name or phone differs; review before merging.",
+            "actual_reason": "Matching contact details contain conflicting information.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000093",
+            "lead_id": "SYN-000093",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "conflicting_contact_details",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "conflicting_contact_details",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000028",
+            "actual_duplicate_of": "SYN-000028",
+            "duplicate_pass": true,
+            "expected_escalation_reason": "contact details partially match a prior lead, but the name or phone differs; review before merging.",
+            "actual_reason": "Matching contact details contain conflicting information.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000094",
+            "lead_id": "SYN-000094",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "conflicting_contact_details",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "conflicting_contact_details",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000029",
+            "actual_duplicate_of": "SYN-000029",
+            "duplicate_pass": true,
+            "expected_escalation_reason": "contact details partially match a prior lead, but the name or phone differs; review before merging.",
+            "actual_reason": "Matching contact details contain conflicting information.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000095",
+            "lead_id": "SYN-000095",
+            "category": "duplicate",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "conflicting_contact_details",
+                "possible_duplicate"
+            ],
+            "actual_risk_flags": [
+                "conflicting_contact_details",
+                "possible_duplicate"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": "SYN-000030",
+            "actual_duplicate_of": "SYN-000030",
+            "duplicate_pass": true,
+            "expected_escalation_reason": "contact details partially match a prior lead, but the name or phone differs; review before merging.",
+            "actual_reason": "Matching contact details contain conflicting information.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000096",
+            "lead_id": "SYN-000096",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000097",
+            "lead_id": "SYN-000097",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000098",
+            "lead_id": "SYN-000098",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000099",
+            "lead_id": "SYN-000099",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000100",
+            "lead_id": "SYN-000100",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000101",
+            "lead_id": "SYN-000101",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000102",
+            "lead_id": "SYN-000102",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": "SYN-000096",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000103",
+            "lead_id": "SYN-000103",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000104",
+            "lead_id": "SYN-000104",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000105",
+            "lead_id": "SYN-000105",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000106",
+            "lead_id": "SYN-000106",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000107",
+            "lead_id": "SYN-000107",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000108",
+            "lead_id": "SYN-000108",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": "SYN-000096",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000109",
+            "lead_id": "SYN-000109",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000110",
+            "lead_id": "SYN-000110",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000111",
+            "lead_id": "SYN-000111",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000112",
+            "lead_id": "SYN-000112",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000113",
+            "lead_id": "SYN-000113",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000114",
+            "lead_id": "SYN-000114",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": "SYN-000096",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000115",
+            "lead_id": "SYN-000115",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000116",
+            "lead_id": "SYN-000116",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000117",
+            "lead_id": "SYN-000117",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000118",
+            "lead_id": "SYN-000118",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "bulk_solicitation",
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000119",
+            "lead_id": "SYN-000119",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000120",
+            "lead_id": "SYN-000120",
+            "category": "spam",
+            "status": "PASS",
+            "expected_outcome": "reject_spam",
+            "actual_outcome": "reject_spam",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_spam"
+            ],
+            "actual_risk_flags": [
+                "possible_spam"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": "SYN-000096",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Possible spam detected; human review required.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000121",
+            "lead_id": "SYN-000121",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000122",
+            "lead_id": "SYN-000122",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000123",
+            "lead_id": "SYN-000123",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000124",
+            "lead_id": "SYN-000124",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000125",
+            "lead_id": "SYN-000125",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000126",
+            "lead_id": "SYN-000126",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000127",
+            "lead_id": "SYN-000127",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000128",
+            "lead_id": "SYN-000128",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000129",
+            "lead_id": "SYN-000129",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000130",
+            "lead_id": "SYN-000130",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000131",
+            "lead_id": "SYN-000131",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000132",
+            "lead_id": "SYN-000132",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000133",
+            "lead_id": "SYN-000133",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000134",
+            "lead_id": "SYN-000134",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000135",
+            "lead_id": "SYN-000135",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000136",
+            "lead_id": "SYN-000136",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000137",
+            "lead_id": "SYN-000137",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000138",
+            "lead_id": "SYN-000138",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000139",
+            "lead_id": "SYN-000139",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000140",
+            "lead_id": "SYN-000140",
+            "category": "angry_dissatisfied",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "actual_risk_flags": [
+                "angry_or_complaint"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "customer complaint or dissatisfaction requires human review.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000141",
+            "lead_id": "SYN-000141",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000142",
+            "lead_id": "SYN-000142",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000143",
+            "lead_id": "SYN-000143",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000144",
+            "lead_id": "SYN-000144",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000145",
+            "lead_id": "SYN-000145",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000146",
+            "lead_id": "SYN-000146",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000147",
+            "lead_id": "SYN-000147",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000148",
+            "lead_id": "SYN-000148",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000149",
+            "lead_id": "SYN-000149",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000150",
+            "lead_id": "SYN-000150",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000151",
+            "lead_id": "SYN-000151",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000152",
+            "lead_id": "SYN-000152",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000153",
+            "lead_id": "SYN-000153",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000154",
+            "lead_id": "SYN-000154",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000155",
+            "lead_id": "SYN-000155",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000156",
+            "lead_id": "SYN-000156",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000157",
+            "lead_id": "SYN-000157",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000158",
+            "lead_id": "SYN-000158",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000159",
+            "lead_id": "SYN-000159",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000160",
+            "lead_id": "SYN-000160",
+            "category": "wrong_service_area",
+            "status": "PASS",
+            "expected_outcome": "reject_out_of_area",
+            "actual_outcome": "reject_out_of_area",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "outside_service_area"
+            ],
+            "actual_risk_flags": [
+                "outside_service_area"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "The supplied service area is not supported.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000161",
+            "lead_id": "SYN-000161",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000162",
+            "lead_id": "SYN-000162",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000163",
+            "lead_id": "SYN-000163",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000164",
+            "lead_id": "SYN-000164",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000165",
+            "lead_id": "SYN-000165",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000166",
+            "lead_id": "SYN-000166",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000167",
+            "lead_id": "SYN-000167",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000168",
+            "lead_id": "SYN-000168",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000169",
+            "lead_id": "SYN-000169",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000170",
+            "lead_id": "SYN-000170",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000171",
+            "lead_id": "SYN-000171",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000172",
+            "lead_id": "SYN-000172",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000173",
+            "lead_id": "SYN-000173",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000174",
+            "lead_id": "SYN-000174",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000175",
+            "lead_id": "SYN-000175",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000176",
+            "lead_id": "SYN-000176",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000177",
+            "lead_id": "SYN-000177",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000178",
+            "lead_id": "SYN-000178",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000179",
+            "lead_id": "SYN-000179",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000180",
+            "lead_id": "SYN-000180",
+            "category": "prompt_injection",
+            "status": "PASS",
+            "expected_outcome": "escalate",
+            "actual_outcome": "escalate",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "actual_risk_flags": [
+                "possible_prompt_injection"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": "untrusted customer text attempts to override safeguards or access other customer data.",
+            "actual_reason": "A security or customer complaint requires human review.",
+            "escalation_reason_pass": false
+        },
+        {
+            "case_id": "CASE-000181",
+            "lead_id": "SYN-000181",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000182",
+            "lead_id": "SYN-000182",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000183",
+            "lead_id": "SYN-000183",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000184",
+            "lead_id": "SYN-000184",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000185",
+            "lead_id": "SYN-000185",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000186",
+            "lead_id": "SYN-000186",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000187",
+            "lead_id": "SYN-000187",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000188",
+            "lead_id": "SYN-000188",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000189",
+            "lead_id": "SYN-000189",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000190",
+            "lead_id": "SYN-000190",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_email",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000191",
+            "lead_id": "SYN-000191",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000192",
+            "lead_id": "SYN-000192",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000193",
+            "lead_id": "SYN-000193",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000194",
+            "lead_id": "SYN-000194",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000195",
+            "lead_id": "SYN-000195",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000196",
+            "lead_id": "SYN-000196",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000197",
+            "lead_id": "SYN-000197",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000198",
+            "lead_id": "SYN-000198",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000199",
+            "lead_id": "SYN-000199",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000200",
+            "lead_id": "SYN-000200",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "request_more_info",
+            "actual_outcome": "request_more_info",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "missing_service_details"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Required lead information is missing or the service description needs clarification.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000201",
+            "lead_id": "SYN-000201",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "reject_invalid",
+            "actual_outcome": "reject_invalid",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "invalid_email",
+                "invalid_phone"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "invalid_email",
+                "invalid_phone"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Supplied contact information is invalid.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000202",
+            "lead_id": "SYN-000202",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "reject_invalid",
+            "actual_outcome": "reject_invalid",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "invalid_email",
+                "invalid_phone"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "invalid_email",
+                "invalid_phone"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": "SYN-000201",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Supplied contact information is invalid.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000203",
+            "lead_id": "SYN-000203",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "reject_invalid",
+            "actual_outcome": "reject_invalid",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "invalid_email",
+                "invalid_phone"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "invalid_email",
+                "invalid_phone"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": "SYN-000201",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Supplied contact information is invalid.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000204",
+            "lead_id": "SYN-000204",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "reject_invalid",
+            "actual_outcome": "reject_invalid",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "invalid_email",
+                "invalid_phone"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "invalid_email",
+                "invalid_phone"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": "SYN-000201",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Supplied contact information is invalid.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000205",
+            "lead_id": "SYN-000205",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "reject_invalid",
+            "actual_outcome": "reject_invalid",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "invalid_email",
+                "invalid_phone"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "invalid_email",
+                "invalid_phone"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": "SYN-000201",
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Supplied contact information is invalid.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000206",
+            "lead_id": "SYN-000206",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "reject_invalid",
+            "actual_outcome": "reject_invalid",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "invalid_phone",
+                "missing_email"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "invalid_phone",
+                "missing_email"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Supplied contact information is invalid.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000207",
+            "lead_id": "SYN-000207",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "reject_invalid",
+            "actual_outcome": "reject_invalid",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "invalid_phone",
+                "missing_email"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "invalid_phone",
+                "missing_email"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Supplied contact information is invalid.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000208",
+            "lead_id": "SYN-000208",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "reject_invalid",
+            "actual_outcome": "reject_invalid",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "invalid_phone",
+                "missing_email"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "invalid_phone",
+                "missing_email"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Supplied contact information is invalid.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000209",
+            "lead_id": "SYN-000209",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "reject_invalid",
+            "actual_outcome": "reject_invalid",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "invalid_phone",
+                "missing_email"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "invalid_phone",
+                "missing_email"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Supplied contact information is invalid.",
+            "escalation_reason_pass": null
+        },
+        {
+            "case_id": "CASE-000210",
+            "lead_id": "SYN-000210",
+            "category": "incomplete_invalid",
+            "status": "PASS",
+            "expected_outcome": "reject_invalid",
+            "actual_outcome": "reject_invalid",
+            "outcome_pass": true,
+            "expected_risk_flags": [
+                "incomplete",
+                "invalid_phone",
+                "missing_email"
+            ],
+            "actual_risk_flags": [
+                "incomplete",
+                "invalid_phone",
+                "missing_email"
+            ],
+            "risk_flags_pass": true,
+            "expected_duplicate_of": null,
+            "actual_duplicate_of": null,
+            "duplicate_pass": true,
+            "expected_escalation_reason": null,
+            "actual_reason": "Supplied contact information is invalid.",
+            "escalation_reason_pass": null
+        }
+    ],
+    "generated_at": "2026-11-19T09:44:40.373540+00:00",
+    "source_files": {
+        "expected": "dataset\\evaluation_cases.json",
+        "actual": "evaluations\\dataset_run_report.json"
+    }
+}

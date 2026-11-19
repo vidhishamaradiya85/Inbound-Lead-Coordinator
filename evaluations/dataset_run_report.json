@@ -1,0 +1,336 @@
+{
+  "total_dataset_leads": 210,
+  "successfully_processed": 25,
+  "failed": 0,
+  "decision_counts": {
+    "eligible_for_qualification": 25
+  },
+  "failures": [],
+  "results": [
+    {
+      "lead_id": "SYN-000001",
+      "decision": {
+        "lead_id": "SYN-000001",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000002",
+      "decision": {
+        "lead_id": "SYN-000002",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000003",
+      "decision": {
+        "lead_id": "SYN-000003",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000004",
+      "decision": {
+        "lead_id": "SYN-000004",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000005",
+      "decision": {
+        "lead_id": "SYN-000005",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000006",
+      "decision": {
+        "lead_id": "SYN-000006",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000007",
+      "decision": {
+        "lead_id": "SYN-000007",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000008",
+      "decision": {
+        "lead_id": "SYN-000008",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000009",
+      "decision": {
+        "lead_id": "SYN-000009",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000010",
+      "decision": {
+        "lead_id": "SYN-000010",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000011",
+      "decision": {
+        "lead_id": "SYN-000011",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000012",
+      "decision": {
+        "lead_id": "SYN-000012",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000013",
+      "decision": {
+        "lead_id": "SYN-000013",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000014",
+      "decision": {
+        "lead_id": "SYN-000014",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000015",
+      "decision": {
+        "lead_id": "SYN-000015",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000016",
+      "decision": {
+        "lead_id": "SYN-000016",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000017",
+      "decision": {
+        "lead_id": "SYN-000017",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000018",
+      "decision": {
+        "lead_id": "SYN-000018",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000019",
+      "decision": {
+        "lead_id": "SYN-000019",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000020",
+      "decision": {
+        "lead_id": "SYN-000020",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000021",
+      "decision": {
+        "lead_id": "SYN-000021",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000022",
+      "decision": {
+        "lead_id": "SYN-000022",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000023",
+      "decision": {
+        "lead_id": "SYN-000023",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000024",
+      "decision": {
+        "lead_id": "SYN-000024",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    },
+    {
+      "lead_id": "SYN-000025",
+      "decision": {
+        "lead_id": "SYN-000025",
+        "decision": "eligible_for_qualification",
+        "qualification_status": "not_evaluated",
+        "qualification_score": 0.7,
+        "reason": "Basic lead information is present. Further qualification is required.",
+        "risk_flags": [],
+        "duplicate_of": null,
+        "requires_human": false
+      }
+    }
+  ]
+}
